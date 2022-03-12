@@ -6,8 +6,6 @@ Our project involves using data compiled from the music application Spotify and 
 ## Usability
 The goal of our project is to create a machine learning model that can be used to predict the popularity score of a song based on its features. This will allow for producers and businesses alike to input an array of features and then receive a score back. Music has gotten more complicated with new genres coming up like escape room and bro step, so we are looking to streamline the features of songs to see what will be popular based on features regardless of genre.
 
-## Data Preparation
-
 ## Final Model
 The hyperparameters for this model were set with four layers. An input layer, two hidden layers consisting 18 and 10 units, and then an output layer. We ran the model using the Relu activation function for a total of 100 epochs These variables resulted in a total of 799 parameters for the model and returned an accuracy score of 87%. This model was then fitted and used to predict the popularity of our testing data set. We stored the predictive popularity and graphed it based on various features using MatPlot to judge for ourselves how accurately the model predicted popularity. 
 
